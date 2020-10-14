@@ -506,14 +506,4 @@ for(i in 3:4)
 }
 
 
-
-#savingtime <- as.character(Sys.time())
-
-#s_split <- strsplit(savingtime, "\\s+")
-
-#img_name <- paste(paste("ML_algos", s_split[[1]][1], s_split[[1]][2], sep="_"), ".RData", sep="")
-#img_name <- gsub("\"", "", img_name)
-#img_name
-
-#save.image(file = img_name)
 ########## Main Ends #########
