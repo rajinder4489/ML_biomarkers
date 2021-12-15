@@ -1,4 +1,4 @@
-#calculates different parameters for	whole list, only protien coding and only non-coding
+#calculates different parameters for whole list, only protien coding, and only non-coding
 #Removes highly correlated festures (cutoff=0.75)
 
 #setwd("C:/Users/r.gupta/Desktop/livercancer/")
@@ -12,7 +12,6 @@ library(gridExtra)
 library(reshape2)
 library(openxlsx)
 library(cowplot)
-library(openxlsx)
 #library(pROC)
 
 #output files 
